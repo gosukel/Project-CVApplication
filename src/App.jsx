@@ -16,7 +16,7 @@ const starterDetails = {
             id: uuidv4(),
             company: "Company Name",
             title: "Position Title",
-            duties: "List of responsibilities",
+            duties: "List, of, responsibilities",
         },
     ],
 };
