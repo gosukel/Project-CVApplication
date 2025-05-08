@@ -1,0 +1,87 @@
+.resume {
+    min-height: 80%;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4), -5px -5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.resume > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-resume h2 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+hr {
+    height: 2px;
+    width: 80%;
+    color: black;
+    border: none;
+    border-top: 2px solid black;
+    margin: 2px 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-resume,
+.practical-resume {
+    margin-top: 45px;
+}
+
+.education-details {
+    display: flex;
+    width: 80%;
+}
+
+.school-name {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.field {
+    align-self: start;
+    margin-left: 10%;
+}
+
+.education-resume p,
+.practical-resume p {
+    font-style: italic;
+}
+
+.practical-resume h3 {
+    align-self: center;
+}
+
+.job-details {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 8px;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.duties {
+    margin-left: 30px;
+}
