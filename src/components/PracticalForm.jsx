@@ -38,6 +38,13 @@ export default function PracticalForm({
         updater("workExperience", newData);
     }
 
+    let colNumber;
+    if (navigator.userAgent.includes("Chrome")) {
+        colNumber = "41";
+    } else {
+        colNumber = "28";
+    }
+
     return (
         <div className="practical-form">
             <div className="practical-form-header">
@@ -83,7 +90,7 @@ export default function PracticalForm({
                                 ></input>
                                 <textarea
                                     rows="6"
-                                    cols="41"
+                                    cols={colNumber}
                                     value={exp.duties}
                                     onChange={(e) => {
                                         prepData(
