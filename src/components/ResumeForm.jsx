@@ -1,7 +1,7 @@
 import GeneralForm from "./GeneralForm";
 import EducationForm from "./EducationForm";
 import PracticalForm from "./PracticalForm";
-import "../assets/ResumeForm.css";
+import "../styles/ResumeForm.css";
 import { useState } from "react";
 
 export default function ResumeForm({ details, updater }) {

@@ -11,20 +11,3 @@ body {
     min-width: 320px;
     min-height: 100vh;
 }
-
-.general-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    padding: 30px 30px;
-    border: 2px solid gray;
-    border-radius: 10px;
-}
-
-.general-div input {
-    margin-bottom: 20px;
-    padding: 3px;
-    width: 300px;
-}

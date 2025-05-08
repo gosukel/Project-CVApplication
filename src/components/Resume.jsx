@@ -1,4 +1,4 @@
-import "../assets/Resume.css";
+import "../styles/Resume.css";
 import GeneralSection from "./GeneralSection";
 import EducationSection from "./EducationSection";
 import PracticalSection from "./PracticalSection";
